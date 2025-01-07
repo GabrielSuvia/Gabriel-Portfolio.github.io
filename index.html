@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel's portafolio</title>
+</head>
+<style>
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to bottom right, #6fff82, #71ffbd, #5fff9c, #81f971, #a0e7e5, #b4f8c8);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: rgba(0, 0, 0, 0.4);
+    border-bottom: 2px solid #fff;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+nav {
+    background: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 900px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffd700;
+}
+
+.project {
+    margin: 20px 0;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    border: 2px solid #fff;
+}
+
+.project h3 {
+    margin: 0;
+    color: #f9f871;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+    background: rgba(0, 0, 0, 0.4);
+    border-top: 2px solid #fff;
+}
+
+/* Contact Section */
+#contact p {
+    text-align: center;
+}
+
+#contact a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+</style>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Discover my projects and know more about me!</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm <strong>Gabriel Omar Suvia</strong>, a creative developer passionate about building engaging and dynamic web applications. I have experience in both back-end, front-end development
+            and also in the Devop.</p>
+    </section>
+
+    <section id="projects">
+
+        <h2>My Projects</h2>
+
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>this app web is simple project and is used to register and reserve your turn saving that turn, this app run in railway</p>
+            <a href="https://frontend-turnproject-production.up.railway.app" class="btn">View Project</a>
+        </div>
+
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>this app web is about the one ecommerce where you can register and buy some products that you want,
+                saving them in a cart this app run in railway</p>
+            <a href="https://nextjsecommerce-production.up.railway.app" class="btn">View Project</a>
+        </div>
+
+        <div class="project">
+            <h3>Project 3(in process) </h3>
+            <p>this new project , I thing to make it with a workflow with CI/CD with ther automate server gitAction,
+                but it's about of social network with the tecnology java,springboot with maven </p>
+            <a href="#" class="btn">View Project</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out via email: <a href="mailto:ggabrielomar123@hotmail.com">ggabrielomar123@hotmail.com</a></p>
+        <p>Phone: 591+69089383</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
